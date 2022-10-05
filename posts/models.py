@@ -10,10 +10,11 @@ class Post(models.Model):
         on_delete=models.CASCADE
     )
     body = models.TextField()
-    created_on = models.DateTiemField(auto_now_add=True)
+    created_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.title
-    
+
     def get_absolute_url(self):
-        return reverse('detail', args=[self.id])
+        return reverse('detail', arges=[self.id])
+
