@@ -1,16 +1,252 @@
-h1 {
-    color: red;
+h1{
+    text-align: center;
+    background-color:#C0B7B1;
+    color: #7a7265;
+    font-size: 28px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 87%;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.card{
+    width: 300px;
+    margin: 10px auto;
+    text-align: left;
+    border: 2px solid #433E3F;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #2C1A1D !important;
+    color: #DBB3B1 !important;
+}
+
+.nav-link, .navbar-brand, .nav-link.active{
+    color: #DBB3B1 !important;
+}
+
+.nav-link:hover, .navbar-brand:hover, .nav-link.active:hover{
+    color: #DBB3B1 !important;
+    font-weight: bold;
+}
+
+body{
+    background-color: #A67F8E;
+}
+
+.card-title a{
+    color:#C69C72;
+    text-decoration: none;
+
+}
+
+.card-title a:hover{
+    text-decoration: underline;
+}
+
+.card-btns{
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #2C1A1D;
+    color: #DBB3B1;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.card-btns:hover{
+    color:#C69C72;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.card a{
+    width: 100px;
+}
+
+.author-div{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    color: gray;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.card-subtitle{
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+
+.home-layout{
+    display: flex;
+    width: 87%;
+    margin: 0 auto;
+    scroll-behavior: auto;
+}
+
+.left{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
 }
 
 
 
-#id_title,
-#id_subtitle,
-#id_author,
-#id_body,
-#id_create {
+.right{
+    flex: 1;
+    scroll-behavior: auto;
+}
+
+#babyfeet{
+    display: block;
+    object-fit: cover;
+    width: 87%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.card-img-top{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
     padding: 5px;
-    margin: 5px;
+    border-radius: 10px;
+}
+
+.homepage-card{
+    height: 400px;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.homepage-card-lg{
     width: 100%;
-    border-radius: 8px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.homepage-card-lg a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-img{
+    object-fit: cover;
+    height: 300px;
+}
+
+.card-img-overlay{
+    color: black;
+    margin-top: 180px;
+}
+
+.highlight{
+    background-color: white;
+    border: 2px solid #2C1A1D;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    height: 130px;
+}
+
+.highlight a{
+    text-decoration: none;
+    color: black;
+}
+
+.highlight-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #A67F8E;
+    margin-bottom: 0;
+}
+
+.highlight-date{
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.highlight-cat{
+    margin: 0;
+    padding: 0;
+}
+
+.details{
+    width: 70%;
+    margin: 30px auto;
+    border: 2px solid #2C1A1D;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.details h4{
+    font-size: 30px;
+    color: #2C1A1D;
+    margin-bottom: 20px;
+}
+
+.details p{
+    margin-top: 10px;
+}
+
+
+.new-form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+}
+
+.new-form label{
+    width: 120px;
+    font-weight: bold;
+}
+
+.new-form input, .new-form textarea{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.featured-header{
+    text-align: center;
+    background-color:#C0B7B1;
+    color: #8E6E53;
+    font-size: 22px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 97%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.filter-btns{
+    margin: 20px auto;
+}
+
+.filter-btns a, .d-flex a{
+    text-decoration: none;
+    color:#C69C72;
 }
